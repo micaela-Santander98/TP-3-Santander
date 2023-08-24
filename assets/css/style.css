@@ -8344,10 +8344,10 @@ html {
       font-size: 45px;
       line-height: 1.22; }
   .foi-header.landing-header {
-    background-image: url("../images/bg_1@2x.png"), url("../images/Bg_2@2x.png");
+    background-image: url("../images/bg_1@2x.png"), url("../images/Bg_2@2xprueba.png");
     background-repeat: no-repeat;
     background-repeat: no-repeat;
-    background-size: 167px, 65%;
+    background-size: 167px, 50%;
     background-position: left bottom, right top; }
 
 .landing-feature-icon {
