@@ -912,6 +912,28 @@ a:focus, a:hover {
   font-size: 50px;
   padding: 10px 0;
 }
+/* CSS para igualar el tamaño de todas las tablas y centrar el botón verticalmente */
+.pricing-table .pricing-item {
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding-bottom: 40px;
+  text-align: center;
+  background: #f9f9f9;
+  height: 500px; /* Establece una altura fija para las tablas */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-table .pricing-item a.btn-main {
+  text-transform: uppercase;
+  margin-top: auto; /* Esto centrará el botón verticalmente */
+  align-self: center;
+}
+
+
+
+
 
 /*=================================================================
   Portfolio section
