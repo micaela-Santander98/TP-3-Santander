@@ -5,21 +5,21 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quattrocento+Sans:wght@400;700&display=swap");
 body {
   line-height: 1.4;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Titillium Web", sans-serif;
-  color: #9a9a9a;
+  font-family: "Quatroccento Sans", sans-serif;
+  color: #000000;
   font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 600;
 }
 
@@ -56,15 +56,15 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-  color: #f0326b;
+  color: #ffffff;
 }
 
 .btn-main, .btn-main-sm {
-  background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-color: #F05A28;
+  background-image: linear-gradient(100deg, #F05A28, #F05A28);
   color: #FFFEF8;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   padding: 10px 40px;
   text-transform: uppercase;
@@ -153,7 +153,7 @@ a:focus, a:hover {
 }
 
 #preloader {
-  background: #f0326b;
+  background: #FFFEF8;
   height: 100%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -308,7 +308,7 @@ a:focus, a:hover {
   }
 }
 .title {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: center;
 }
 .title h2 {
@@ -446,7 +446,7 @@ a:focus, a:hover {
   display: inline-block;
 }
 .single-page-header .breadcrumb li a {
-  color: #f0326b;
+  color: #000000;
 }
 
 .navigation {
@@ -457,7 +457,7 @@ a:focus, a:hover {
   color: #fff;
 }
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color: #ffffff;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -475,7 +475,7 @@ a:focus, a:hover {
 }
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #f0326b;
+  color: #000000;
 }
 .navigation .navbar-toggler {
   color: #fff;
@@ -501,7 +501,7 @@ a:focus, a:hover {
 }
 .navigation .dropdown .dropdown-item:hover {
   background: transparent;
-  color: #f0326b;
+  color: #ffffff;
 }
 .navigation .dropdown .dropdown-menu {
   border-radius: 0;
@@ -551,7 +551,7 @@ a:focus, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1f2532;
+  background: #ffffff;
 }
 @media (max-width: 480px) {
   .hero-area {
@@ -935,11 +935,11 @@ a:focus, a:hover {
   background: none;
 }
 .portfolio-filter button:hover {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #000000;
   color: #000;
 }
 .portfolio-filter button.active {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #000000;
   color: #000;
 }
 
@@ -1319,4 +1319,12 @@ a:focus, a:hover {
     font-size: 100px;
   }
 }
+.pricing-table.section {
+  background-image: url('../images/texturas/madera\ 1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff; /* Cambia el color del texto para que sea legible en la imagen de fondo */
+}
+
 /*# sourceMappingURL=style.css.map */
