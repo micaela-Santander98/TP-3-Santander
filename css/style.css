@@ -422,7 +422,8 @@ a:focus, a:hover {
 
 .bg-pricing {
   background: url("../images/pricing-bg.jpg");
-  background-size: cover;
+  background-size: max(100%, 100%);
+  background-position: center center; /* Alinea la imagen en el centro vertical y horizontal */
 }
 
 .single-page-header {
