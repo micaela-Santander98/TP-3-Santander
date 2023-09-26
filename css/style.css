@@ -1181,12 +1181,12 @@ a:focus, a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial {
-  background: #f0326b;
+  background: #FFFEF8;
   position: relative;
 }
 .testimonial .item i {
   font-size: 40px;
-  color: #fff;
+  color: #000000;
   margin-bottom: 30px;
   display: inline-block;
 }
@@ -1195,13 +1195,13 @@ a:focus, a:hover {
 }
 .testimonial .item .client-details p {
   font-size: 17px;
-  color: #fff;
+  color: #000000;
   font-weight: 200;
   padding: 0 10%;
 }
 .testimonial .item .client-meta {
   margin-top: 8px;
-  color: #fff;
+  color: #000000;
 }
 .testimonial .item .client-meta h4 {
   margin-bottom: 4px;
@@ -1214,7 +1214,9 @@ a:focus, a:hover {
   border-radius: 100%;
   width: 90px;
   height: auto;
+  border: 3px solid #F05A28;
 }
+
 
 /*=================================================================
   Latest Posts
