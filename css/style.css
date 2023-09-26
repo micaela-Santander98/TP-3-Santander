@@ -714,12 +714,13 @@ a:focus, a:hover {
 /*=================================================================
  Call To Action 1
 ==================================================================*/
+/* Centra la imagen de fondo horizontalmente */
 .call-to-action {
   padding: 100px 0;
-  background: url("../images/call-to-action/call-to-action-bg-2.jpg");
-  background-size: cover;
+  background: url("../images/call-to-action/call-to-action-bg-2.jpg") center/cover no-repeat;
   color: #fff;
 }
+
 .call-to-action h2 {
   line-height: 1.5;
 }
