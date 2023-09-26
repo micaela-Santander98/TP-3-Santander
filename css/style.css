@@ -984,7 +984,7 @@ a:focus, a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(240, 50, 107, 0.9);
+  background: rgb(240, 90, 40);
   transition: 0.3s all;
 }
 .portfolio-block:hover:before {
@@ -1016,13 +1016,20 @@ a:focus, a:hover {
   color: #fff;
 }
 .portfolio-block .caption .search-icon {
-  background: #f0326b;
+  background: #F05A28;
   color: #fff;
   display: inline-block;
   padding: 4px 13px;
   font-size: 25px;
   border-radius: 30px;
   opacity: 0;
+}
+.portfolio {
+  background-image: url('fondo galeria.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta correcta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff; /* Puedes ajustar el color del texto según tus preferencias */
 }
 
 /*=================================================================
