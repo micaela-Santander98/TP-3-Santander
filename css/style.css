@@ -313,8 +313,8 @@ a:focus, a:hover {
 }
 .title h2 {
   font-size: 35px;
-  color: #232323;
-  text-transform: capitalize;
+  color: #F05A28;
+  text-transform: none;
   margin-bottom: 8px;
   font-weight: 700;
 }
