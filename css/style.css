@@ -552,7 +552,7 @@ a:focus, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
+  background: #FFFEF8;
 }
 @media (max-width: 480px) {
   .hero-area {
@@ -560,7 +560,7 @@ a:focus, a:hover {
   }
 }
 .hero-area .block {
-  color: #fff;
+  color: #FFFEF8;
   padding-left: 30px;
 }
 @media (max-width: 480px) {
@@ -631,7 +631,7 @@ a:focus, a:hover {
   margin-bottom: 20px;
 }
 .hero-area-video .block p {
-  color: #fff;
+  color: #FFFEF8;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
@@ -653,7 +653,7 @@ a:focus, a:hover {
   About us section
 ==================================================================*/
 .about {
-  background: #fff;
+  background: #FFFEF8;
 }
 .about h2 {
   font-size: 40px;
@@ -688,7 +688,7 @@ a:focus, a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 {
-  background: #F7F7F7;
+  background: #FFFEF8;
 }
 .about-2 h2 {
   position: relative;
@@ -852,7 +852,7 @@ a:focus, a:hover {
   padding: 40px 0;
   min-height: 250px;
   text-align: center;
-  background: #fff;
+  background: #FFFEF8;
   border-radius: 3px;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
 }
@@ -1071,6 +1071,10 @@ a:focus, a:hover {
 .services .service-block p {
   color: #777;
 }
+.services {
+  background: #FFFEF8; 
+  color: #000; 
+}
 
 /*=================================================================
   Services section 2
@@ -1240,7 +1244,7 @@ a:focus, a:hover {
   Latest Posts
 ==================================================================*/
 .post-item {
-  background: #fff;
+  background: #FFFEF8;
   margin-bottom: 40px;
 }
 .post-item .post-thumb {
@@ -1288,7 +1292,7 @@ a:focus, a:hover {
 .top-footer h3 {
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #FFFEF8;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1381,6 +1385,10 @@ a:focus, a:hover {
   .page-404 h1 {
     font-size: 100px;
   }
+}
+.blog {
+  background: #FFFEF8; 
+
 }
 
 
