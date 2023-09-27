@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p, {
+p {
   color: #000;
 /* body 2 */
 font-family: Quattrocento Sans;
@@ -21,6 +21,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.service-block p {
+  color: #000 !important; /* Agrega !important para aumentar la especificidad */
+}
+
+
 
 h1, h6 {
   font-family: "Playfair Display", sans-serif;
@@ -980,6 +985,10 @@ a:focus, a:hover {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff; 
+}
+.frase-destacada {
+  color: #fff !important; 
+ 
 }
 
 
