@@ -1347,6 +1347,25 @@ a:focus, a:hover {
 .footer-bottom a {
   color: #ffffff;
 }
+#footer {
+  text-align: center; 
+  padding: 60px 0; 
+}
+
+
+#footer .top-footer {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+
+#footer .top-footer .col-lg-3 {
+  flex: 0 0 33.333333%; 
+  max-width: 33.333333%; 
+  text-align: left; 
+  padding: 0 15px; 
+}
 
 .subscribe-form .form-control {
   border-radius: 0;
