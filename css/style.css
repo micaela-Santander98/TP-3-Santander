@@ -1230,6 +1230,9 @@ a:focus, a:hover {
 .section {
   background-color: #FFFEF8; 
 }
+#services {
+  margin-top: 80px; 
+}
 
 
 /*=================================================================
