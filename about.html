@@ -207,7 +207,7 @@ Fixed Navigation
 
 
 <!-- Start Pricing section -->
-<section class="pricing-table section" id="pricing">
+<section class="pricing-table section" id="pricing" style="margin-top: 70px;">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -276,6 +276,7 @@ Fixed Navigation
 <!-- End Pricing section -->
 
 
+
 <!--
 Start Call To Action
 ==================================== -->
@@ -289,59 +290,143 @@ Start Call To Action
 	</div>   	<!-- End container -->
 </section>   <!-- End section -->
 
-<footer id="footer" class="bg-one">
-  <div class="top-footer">
+<!-- Srart Contact Us -->
+<section class="contact-us section bg-gray" id="contact" style="margin-top: 50px;">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-          <h3>About</h3>
-          <p>Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.</p>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-          <h3>Our Services</h3>
-          <ul>
-            <li><a href="#">Graphic Design</a></li>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-          </ul>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">FAQ’s</a></li>
-            <li><a href="#">Badges</a></li>
-          </ul>
-        </div>
-        <!-- End of .col-sm-3 -->
-
-        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-          <h3>Subscribe Now</h3>
-          <form class="subscribe-form">
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <div class="row">
+            <div class="col-12">
+                <div class="title text-center">
+                    <h2>Contáctanos</h2>
+                    <h5 class="mt-0"><a href="">¿Tenés alguna duda?</a></h5>
+                </div>
             </div>
-            <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
-          </form>
         </div>
-        <!-- End of .col-sm-3 -->
+        <div class="row">
+            <!-- Contact Details -->
+            <div class="col-md-6">
+                <div class="map">
+                    <div id="map"></div>
+                </div>
+            </div>
+            <!-- / End Contact Details -->
 
-      </div>
+            <!-- Contact Form -->
+            <div class="contact-form col-md-6">
+                <form id="contact-form" method="post" action="sendmail.php" role="form">
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" class="form-control" name="name" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto" class="form-control" name="subject" id="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message"></textarea>
+                    </div>
+
+                    <div id="success" class="success">
+                        Thank you. The Mailman is on His Way :)
+                    </div>
+
+                    <div id="error" class="error">
+                        Sorry, don't know what happened. Try later :(
+                    </div>
+
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="enviar">
+                    </div>
+
+                </form>
+            </div>
+            <!-- ./End Contact Form -->
+        </div> <!-- end row -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="address-block contact-meta-block">
+                    <i class="tf-ion-android-pin"></i>
+                    <h4>Nuestro local</h4>
+                    <p>
+                        Calle falsa 123
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="phone-block contact-meta-block">
+                    <i class="tf-ion-ios-telephone"></i>
+                    <h4>Llamanos</h4>
+                    <p>
+                        (03) 9283 2617
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="social-icons-block contact-meta-block">
+                    <i class="tf-ion-ios-contact"></i>
+                    <h4>Nuestras redes</h4>
+                    <ul class="list-inline social-icon">
+                        <li class="list-inline-item"><a href=""><i class="tf-ion-social-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="tf-ion-social-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="tf-ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div> <!-- end container -->
-  </div>
-  <div class="footer-bottom">
-    <h5>Copyright 2017. All rights reserved.</h5>
-    <h6>Design and Developed by <a href="https://themefisher.com/" target="_blank">Themefisher</a>. Get more bootstrap template form our <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a></h6>
-  </div>
-</footer> <!-- end footer -->
-<!-- end Footer Area
-========================================== -->
+</section> <!-- end section -->
 
+		
+		<footer id="footer" class="bg-one">
+		  <div class="top-footer">
+			<div class="container">
+			  <div class="row">
+				<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+					<h6>El Bartender Club</h6>
+		
+				  <p>Una exclusiva comunidad de amantes de la mixología que ofrece suscripciones mensuales para crear y disfrutar cócteles de autor en casa. </p>
+				</div>
+				<!-- End of .col-sm-3 -->
+		
+				
+		
+				<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+				  <h6>Atajos</h6>
+				  <ul>
+					<li><a href="#">Sobre nosotros</a></li>
+					<li><a href="#">Nuestras boxes</a></li>
+					<li><a href="#">Galería</a></li>
+					<li><a href="#">Contacto</a></li>
+				  </ul>
+				</div>
+				<!-- End of .col-sm-3 -->
+		
+				<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+				  <h6>Recibí las novedades</h6>
+				  <form class="subscribe-form">
+					<div class="form-group">
+					  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+					</div>
+					<button type="submit" class="btn btn-main-sm">Suscribíte ahora</button>
+				  </form>
+				</div>
+				<!-- End of .col-sm-3 -->
+		
+			  </div>
+			</div> <!-- end container -->
+		  </div>
+		  <div class="footer-bottom">
+			<h5>Copyright 2017. All rights reserved.</h5>
+			<h6>Design and Developed by <a href="https://themefisher.com/" target="_blank">Themefisher</a>. Get more bootstrap template form our <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a></h6>
+		  </div>
+		</footer> <!-- end footer -->
+
+		
 <!-- 
 Essential Scripts
 =====================================-->
