@@ -1294,6 +1294,16 @@ a:focus, a:hover {
   border: 3px solid #F05A28;
 }
 
+#testimonial h5 {
+  margin-bottom: 20px; 
+}
+
+
+.testimonial-slider {
+  margin-top: 35px; 
+}
+
+
 
 /*=================================================================
   Latest Posts
