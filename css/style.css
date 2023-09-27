@@ -1032,6 +1032,11 @@ a:focus, a:hover {
  
 }
 
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 
