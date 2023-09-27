@@ -970,7 +970,7 @@ a:focus, a:hover {
 .pricing-table .pricing-item li {
   font-weight: 400;
   padding: 10px 0;
-  color: #666;
+  color: #000000;
 }
 .pricing-table .pricing-item li i {
   margin-right: 6px;
