@@ -13,9 +13,13 @@ body {
 }
 
 p, {
-  font-family: "Quatroccento Sans", sans-serif;
-  color: #000000;
-  font-size: 15px;
+  color: #000;
+/* body 2 */
+font-family: Quattrocento Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 h1, h6 {
@@ -1304,8 +1308,9 @@ a:focus, a:hover {
   margin: 3px 0;
 }
 .post-item .post-content p {
-  color: #757575;
+  color: #000000;
   margin: 10px 0;
+  font-size: 16px;
 }
 .post-item .btn-main, .post-item .btn-main-sm {
   font-size: 12px;
