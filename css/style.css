@@ -478,7 +478,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #1f2532;
+  background: #F05A28;
   padding: 50px 0;
   text-align: center;
   color: #fff;
@@ -499,6 +499,16 @@ a:focus, a:hover {
 }
 .single-page-header .breadcrumb li a {
   color: #000000;
+}
+
+.breadcrumb-item.active {
+  color: white;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  padding: 0 5px; 
+  color: rgb(0, 0, 0); 
 }
 
 .navigation {
