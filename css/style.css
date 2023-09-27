@@ -411,6 +411,20 @@ a:focus, a:hover {
 .color-black li {
   line-height: 2; 
   white-space: nowrap;
+  white-space: nowrap;
+}
+.color-black li {
+  white-space: nowrap;
+}
+
+.list-container {
+  display: inline-block; 
+  vertical-align: top; 
+}
+
+.additional-text {
+  text-align: left; 
+  margin-top: 30px; /
 }
 
 
