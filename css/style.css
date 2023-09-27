@@ -12,17 +12,37 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p {
+p, {
   font-family: "Quatroccento Sans", sans-serif;
   color: #000000;
   font-size: 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h5, h6 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 600;
 }
-
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  color:#F05A28
+}
+h3{
+  color: #FFF;
+text-align: center;
+/* titulo 2 blanco */
+font-family: Playfair Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h4, {
+  font-family: "Quatroccento Sans", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
 /*=== MEDIA QUERY ===*/
 .no-padding {
   padding: 0 !important;
@@ -319,11 +339,11 @@ a:focus, a:hover {
   font-weight: 700;
 }
 .title h4 {
-  font-size: 10px;
+  font-size: 24px;
   line-height: 10px;
   font-weight: 700;
   letter-spacing: 3.3px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .title p {
   color: #848484;
@@ -903,8 +923,8 @@ a:focus, a:hover {
   color: #fff;
   font-weight: 700;
   margin: 0 0 5px;
-  font-size: 15px;
-  text-transform: uppercase;
+  font-size: 24px;
+  text-transform: bold;
 }
 .pricing-table .price-title > p {
   color: #fff;
