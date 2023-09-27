@@ -22,7 +22,7 @@ font-weight: 400;
 line-height: normal;
 }
 .service-block p {
-  color: #000 !important; /* Agrega !important para aumentar la especificidad */
+  color: #000 !important; 
 }
 
 
@@ -36,6 +36,10 @@ h2 {
   font-weight: 600;
   color:#F05A28
 }
+h2 {
+  margin-bottom: 40px; 
+}
+
 h3{
   color: #FFF;
 text-align: center;
