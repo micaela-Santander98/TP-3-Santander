@@ -608,6 +608,14 @@ a:focus, a:hover {
     transform: scaleY(1);
     transform-origin: unset;
   }
+  /* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .title.text-center h4 {
+      font-size: 16px; /* Cambiar el tamaño de fuente a un tamaño adecuado para dispositivos móviles */
+      line-height: 1.2; /* Ajustar el espaciado entre líneas según sea necesario */
+  }
+}
+
 }
 .navigation .dropdown .dropdown-menu.show {
   visibility: visible;
