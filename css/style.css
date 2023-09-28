@@ -687,7 +687,7 @@ a:focus, a:hover {
   width: 80px;
   border-radius: 50px;
   transition: transform 300ms ease;
-  background: #fff;
+  background: #FFFEF8;
   color: #f0326b;
   line-height: 80px;
   font-size: 30px;
@@ -705,7 +705,7 @@ a:focus, a:hover {
   align-items: center;
 }
 .hero-area-video .block {
-  color: #fff;
+  color: #FFFEF8;
   text-align: center;
 }
 .hero-area-video .block h1 {
